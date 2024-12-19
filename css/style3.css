@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+p {
+    font-weight: 300;
+    color: #111;
+}
+
+header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #555;
+}
+
+.logo {
+    color: #000;
+    font-weight: bold;
+    margin-top: -10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.logo span {
+    color: #fb911f;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.btn-reserve {
+    padding: 10px 20px;
+    background-color: #fb911f;
+    margin-top: -10px;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.btn-reserve:hover {
+    background: #d87710;
+    transition: ease-out;
+}
+
+header .navbar li a:hover {
+    color: #fb911f;
+    border-bottom: #fb911f;
+}
+
+header .navbar li a:hover {
+    color: #fb911f;
+    border-bottom: #fb911f;
+}
+
+.page-reserv {
+    padding: 75px 50px;
+    background: #fff;
+    box-shadow: 5px 15px 50px rgba(0, 0, 0, 0.8);
+    max-width: 500px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn1 {
+    font-size: 1em;
+    color: white;
+    background-color: #fb911f;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.btn1:hover {
+    letter-spacing: 4px;
+}
+
+#message-flash {
+    display: none; /* Masque le message par défaut */
+    color: green; /* Couleur du message */
+    font-weight: bold;
+  }
+  
